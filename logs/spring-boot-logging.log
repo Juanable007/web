@@ -1,0 +1,818 @@
+2020-03-26 13:58:12.253  INFO 2944 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 2944 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 13:58:12.280  INFO 2944 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 13:58:19.518  INFO 2944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 13:58:19.593  INFO 2944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 13:58:19.595  INFO 2944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 13:58:22.416  INFO 2944 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 13:58:22.577  INFO 2944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 13:58:22.581  INFO 2944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9941 ms
+2020-03-26 13:58:23.007  INFO 2944 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 13:58:24.980  INFO 2944 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 13:58:27.669  INFO 2944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 13:58:28.078  INFO 2944 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 13:58:29.575  INFO 2944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 13:58:29.589  INFO 2944 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 19.377 seconds (JVM running for 26.358)
+2020-03-26 13:58:29.770  INFO 2944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 13:58:29.776  INFO 2944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 13:58:29.866  INFO 2944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 89 ms
+2020-03-26 13:58:35.280  WARN 2944 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,420] milliseconds.
+2020-03-26 13:58:36.438  INFO 2944 --- [http-nio-8080-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202316] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:00:02.860  INFO 8664 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 8664 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:00:02.881  INFO 8664 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:00:08.587  INFO 8664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:00:08.642  INFO 8664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:00:08.645  INFO 8664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:00:11.062  INFO 8664 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:00:11.168  INFO 8664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:00:11.170  INFO 8664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8055 ms
+2020-03-26 14:00:11.644  INFO 8664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:00:13.097  INFO 8664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:00:14.629  INFO 8664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:00:14.881  INFO 8664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:00:15.493  INFO 8664 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-26 14:00:15.588  INFO 8664 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 14:00:15.611 ERROR 8664 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-26 14:00:15.624  INFO 8664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:00:15.651  INFO 8664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 14:00:54.620  INFO 10424 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10424 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:00:54.630  INFO 10424 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:01:00.378  INFO 10424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:01:00.416  INFO 10424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:01:00.419  INFO 10424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:01:02.824  INFO 10424 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:01:02.936  INFO 10424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:01:02.937  INFO 10424 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8141 ms
+2020-03-26 14:01:03.383  INFO 10424 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:01:04.823  INFO 10424 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:01:06.344  INFO 10424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:01:06.597  INFO 10424 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:01:07.266  INFO 10424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:01:07.333  INFO 10424 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 14.554 seconds (JVM running for 19.152)
+2020-03-26 14:01:11.012  INFO 10424 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202319] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:01:11.054  INFO 10424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:01:11.056  INFO 10424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:01:11.093  INFO 10424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2020-03-26 14:01:14.953  WARN 10424 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,153] milliseconds.
+2020-03-26 14:03:15.680  INFO 10500 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10500 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:03:15.694  INFO 10500 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:03:22.216  INFO 10500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:03:22.260  INFO 10500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:03:22.265  INFO 10500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:03:24.675  INFO 10500 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:03:24.796  INFO 10500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:03:24.797  INFO 10500 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8908 ms
+2020-03-26 14:03:25.210  INFO 10500 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:03:26.691  INFO 10500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:03:28.265  INFO 10500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:03:28.532  INFO 10500 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:03:29.229  INFO 10500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:03:29.244  INFO 10500 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.339 seconds (JVM running for 22.253)
+2020-03-26 14:03:43.141  INFO 10500 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=58085F17B5DBF2D5D05F93238DEFB57A; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202478] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:03:43.186  INFO 10500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:03:43.188  INFO 10500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:03:43.220  INFO 10500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2020-03-26 14:03:46.911  WARN 10500 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [828] milliseconds.
+2020-03-26 14:04:53.499  INFO 8468 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 8468 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:04:53.542  INFO 8468 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:05:00.168  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:05:00.219  INFO 8468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:05:00.222  INFO 8468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:05:02.967  INFO 8468 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:05:03.066  INFO 8468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:05:03.069  INFO 8468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9255 ms
+2020-03-26 14:05:03.503  INFO 8468 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:05:05.066  INFO 8468 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:05:06.735  INFO 8468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:05:06.992  INFO 8468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:05:07.687  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:05:07.701  INFO 8468 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.705 seconds (JVM running for 22.401)
+2020-03-26 14:05:12.674  INFO 8468 --- [http-nio-8080-exec-4] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=1DBD2EF2CB2843C69169C829590A7FB1; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202630] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:05:12.701  INFO 8468 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:05:12.704  INFO 8468 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:05:12.723  INFO 8468 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-03-26 14:05:15.031  WARN 8468 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [538] milliseconds.
+2020-03-26 14:06:05.331  INFO 9324 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 9324 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:06:05.341  INFO 9324 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:06:10.478  INFO 9324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:06:10.522  INFO 9324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:06:10.524  INFO 9324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:06:12.734  INFO 9324 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:06:12.820  INFO 9324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:06:12.821  INFO 9324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7300 ms
+2020-03-26 14:06:13.181  INFO 9324 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:06:14.431  INFO 9324 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:06:15.871  INFO 9324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:06:16.162  INFO 9324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:06:17.192  INFO 9324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:06:17.207  INFO 9324 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 13.539 seconds (JVM running for 19.239)
+2020-03-26 14:06:27.255  INFO 9324 --- [http-nio-8080-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=39D19B770E1202D0DDBD1A31CF32AEF4; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202717] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:06:27.289  INFO 9324 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:06:27.290  INFO 9324 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:06:27.336  INFO 9324 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-03-26 14:06:30.745  WARN 9324 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,139] milliseconds.
+2020-03-26 14:19:55.249  INFO 7660 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 7660 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:19:55.259  INFO 7660 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:20:00.015  INFO 7660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:20:00.051  INFO 7660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:20:00.053  INFO 7660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:20:03.078  INFO 7660 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:20:03.216  INFO 7660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:20:03.217  INFO 7660 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7784 ms
+2020-03-26 14:20:03.804  INFO 7660 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:20:05.855  INFO 7660 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:20:08.234  INFO 7660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:20:08.521  INFO 7660 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:20:09.454  INFO 7660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:20:09.522  INFO 7660 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.129 seconds (JVM running for 26.507)
+2020-03-26 14:20:29.843  INFO 7660 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=C110CBB2C011BAEE5579C85482E16995; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585203498] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:20:29.941  INFO 7660 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:20:29.955  INFO 7660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:20:30.044  INFO 7660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 88 ms
+2020-03-26 14:20:37.259  WARN 7660 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,998] milliseconds.
+2020-03-26 14:22:05.275  INFO 10952 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10952 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:22:05.290  INFO 10952 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:22:12.732  INFO 10952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:22:12.785  INFO 10952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:22:12.788  INFO 10952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:22:16.361  INFO 10952 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:22:16.538  INFO 10952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:22:16.539  INFO 10952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10969 ms
+2020-03-26 14:22:17.271  INFO 10952 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:22:19.450  INFO 10952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:22:21.414  INFO 10952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:22:21.830  INFO 10952 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:22:22.988  INFO 10952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:22:23.083  INFO 10952 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 20.716 seconds (JVM running for 36.593)
+2020-03-26 14:22:37.486  INFO 10952 --- [http-nio-8080-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=EB930D776E1A1744CE925DF4D495C940; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585203649] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:22:37.538  INFO 10952 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:22:37.542  INFO 10952 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:22:37.580  INFO 10952 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-03-26 14:22:49.789  WARN 10952 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [9,058] milliseconds.
+2020-03-26 14:23:55.836  INFO 5684 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 5684 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:23:55.848  INFO 5684 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:24:02.903  INFO 5684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:24:02.967  INFO 5684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:24:02.971  INFO 5684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:24:06.849  INFO 5684 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:24:07.185  INFO 5684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:24:07.187  INFO 5684 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11043 ms
+2020-03-26 14:24:08.000  INFO 5684 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:24:10.006  INFO 5684 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:24:12.586  INFO 5684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:24:13.170  INFO 5684 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:24:14.307  INFO 5684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:24:14.337  INFO 5684 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 21.242 seconds (JVM running for 38.988)
+2020-03-26 14:24:21.524  INFO 5684 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=29C185F87EF4B7027D20543191D81485; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585203774] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:24:21.609  INFO 5684 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:24:21.612  INFO 5684 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:24:21.649  INFO 5684 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-03-26 14:24:28.541  WARN 5684 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,229] milliseconds.
+2020-03-26 14:29:52.396  INFO 11740 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11740 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:29:52.403  INFO 11740 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:29:57.702  INFO 11740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:29:57.744  INFO 11740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:29:57.746  INFO 11740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:30:00.058  INFO 11740 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:30:00.190  INFO 11740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:30:00.191  INFO 11740 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7640 ms
+2020-03-26 14:30:00.758  INFO 11740 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:30:02.375  INFO 11740 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:30:04.426  INFO 11740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:30:04.777  INFO 11740 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:30:05.624  INFO 11740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:30:05.636  INFO 11740 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 14.905 seconds (JVM running for 21.815)
+2020-03-26 14:30:29.481  INFO 11740 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1585202316; JSESSIONID=B646ABB3DE6A7F4A24DD5F95F23671CF; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585203872] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 14:30:29.552  INFO 11740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:30:29.556  INFO 11740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:30:29.588  INFO 11740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-03-26 14:30:39.471  WARN 11740 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,994] milliseconds.
+2020-03-26 14:35:14.513  INFO 10584 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10584 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:35:14.526  INFO 10584 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:35:23.442  INFO 10584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:35:23.490  INFO 10584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:35:23.493  INFO 10584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:35:26.277  INFO 10584 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:35:26.407  INFO 10584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:35:26.409  INFO 10584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11394 ms
+2020-03-26 14:35:27.229  INFO 10584 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:35:29.450  INFO 10584 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:35:31.801  INFO 10584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:35:32.144  INFO 10584 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:35:33.218  INFO 10584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:35:33.232  INFO 10584 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 23.5 seconds (JVM running for 32.912)
+2020-03-26 14:35:51.144  INFO 10584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:35:51.149  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:35:51.184  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-03-26 14:35:57.905  WARN 10584 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,652] milliseconds.
+2020-03-26 14:41:59.978  INFO 10468 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10468 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 14:41:59.992  INFO 10468 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 14:42:07.553  INFO 10468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 14:42:07.608  INFO 10468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 14:42:07.618  INFO 10468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 14:42:10.080  INFO 10468 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 14:42:10.221  INFO 10468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 14:42:10.223  INFO 10468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9808 ms
+2020-03-26 14:42:11.003  INFO 10468 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 14:42:13.382  INFO 10468 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 14:42:15.686  INFO 10468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 14:42:16.225  INFO 10468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 14:42:17.214  INFO 10468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 14:42:17.230  INFO 10468 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 20.821 seconds (JVM running for 27.759)
+2020-03-26 14:48:58.408  INFO 10468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 14:48:58.417  INFO 10468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 14:48:58.473  INFO 10468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 51 ms
+2020-03-26 14:49:05.995  WARN 10468 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,598] milliseconds.
+2020-03-26 15:06:24.990  INFO 4544 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 4544 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:06:25.008  INFO 4544 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:06:31.198  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:06:31.283  INFO 4544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:06:31.287  INFO 4544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:06:34.207  INFO 4544 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:06:34.495  INFO 4544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:06:34.498  INFO 4544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9009 ms
+2020-03-26 15:06:35.013  INFO 4544 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:06:36.777  INFO 4544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:06:39.033  INFO 4544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:06:39.332  INFO 4544 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:06:40.388  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:06:40.421  INFO 4544 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 18.034 seconds (JVM running for 23.36)
+2020-03-26 15:07:04.518  INFO 11856 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11856 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:07:04.535  INFO 11856 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:07:11.189  INFO 11856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:07:11.232  INFO 11856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:07:11.235  INFO 11856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:07:13.905  INFO 11856 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:07:14.060  INFO 11856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:07:14.061  INFO 11856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9281 ms
+2020-03-26 15:07:14.511  INFO 11856 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:07:16.178  INFO 11856 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:07:18.289  INFO 11856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:07:18.574  INFO 11856 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:07:19.747  INFO 11856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:07:19.762  INFO 11856 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 17.423 seconds (JVM running for 25.242)
+2020-03-26 15:07:29.270  INFO 11856 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:07:29.277  INFO 11856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:07:29.308  INFO 11856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-03-26 15:10:58.036  INFO 11856 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:10:58.070  INFO 11856 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:11:52.607  INFO 12088 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 12088 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:11:52.627  INFO 12088 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:11:59.486  INFO 12088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:11:59.571  INFO 12088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:11:59.573  INFO 12088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:12:02.510  INFO 12088 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:12:02.675  INFO 12088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:12:02.676  INFO 12088 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9477 ms
+2020-03-26 15:12:03.305  INFO 12088 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:12:05.775  INFO 12088 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:12:07.442  INFO 11824 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11824 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:12:07.462  INFO 11824 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:12:08.299  INFO 12088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:12:09.459  INFO 12088 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:12:10.501  INFO 12088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:12:10.514  INFO 12088 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 20.079 seconds (JVM running for 25.204)
+2020-03-26 15:12:14.097  INFO 11824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:12:14.199  INFO 11824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:12:14.203  INFO 11824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:12:17.124  INFO 11824 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:12:17.284  INFO 11824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:12:17.285  INFO 11824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9578 ms
+2020-03-26 15:12:17.830  INFO 11824 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:12:19.785  INFO 11824 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:12:21.786  INFO 11824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:12:22.195  INFO 11824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:12:22.994  INFO 11824 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-26 15:12:23.054  INFO 11824 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 15:12:23.089 ERROR 11824 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-26 15:12:23.106  INFO 11824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:12:23.129  INFO 11824 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:12:48.058  INFO 11200 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11200 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:12:48.073  INFO 11200 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:12:54.659  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:12:54.733  INFO 11200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:12:54.738  INFO 11200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:12:57.267  INFO 11200 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:12:57.485  INFO 11200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:12:57.499  INFO 11200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9238 ms
+2020-03-26 15:12:58.032  INFO 11200 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:12:59.828  INFO 11200 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:13:01.856  INFO 11200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:13:02.470  INFO 11200 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:13:03.355  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:13:03.383  INFO 11200 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 17.753 seconds (JVM running for 23.093)
+2020-03-26 15:13:16.200  INFO 11200 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:13:16.205  INFO 11200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:13:16.254  INFO 11200 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2020-03-26 15:18:32.197  INFO 11200 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:18:32.399  INFO 11200 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:19:02.117  INFO 11716 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11716 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:19:02.129  INFO 11716 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:19:08.511  INFO 11716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:19:08.632  INFO 11716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:19:08.634  INFO 11716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:19:11.174  INFO 11716 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:19:11.334  INFO 11716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:19:11.337  INFO 11716 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8989 ms
+2020-03-26 15:19:11.834  INFO 11716 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:19:13.459  INFO 11716 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:19:15.452  INFO 11716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:19:15.853  INFO 11716 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:19:17.392  INFO 11716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:19:17.413  INFO 11716 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 17.251 seconds (JVM running for 22.635)
+2020-03-26 15:19:22.935  INFO 11716 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:19:22.938  INFO 11716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:19:22.986  INFO 11716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-03-26 15:23:20.571  INFO 11716 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:23:20.610  INFO 11716 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:23:41.972  INFO 12064 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 12064 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:23:41.989  INFO 12064 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:23:48.706  INFO 12064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:23:48.751  INFO 12064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:23:48.754  INFO 12064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:23:51.572  INFO 12064 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:23:51.704  INFO 12064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:23:51.705  INFO 12064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9511 ms
+2020-03-26 15:23:52.190  INFO 12064 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:23:53.989  INFO 12064 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:23:56.385  INFO 12064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:23:56.892  INFO 12064 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:23:57.905  INFO 12064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:23:57.928  INFO 12064 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 18.087 seconds (JVM running for 23.99)
+2020-03-26 15:24:16.091  INFO 12064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:24:16.096  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:24:16.127  INFO 12064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-03-26 15:27:26.167  INFO 12064 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:27:26.237  INFO 12064 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:27:48.760  INFO 9936 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 9936 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:27:48.772  INFO 9936 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:27:55.359  INFO 9936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:27:55.410  INFO 9936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:27:55.413  INFO 9936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:27:57.981  INFO 9936 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:27:58.111  INFO 9936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:27:58.112  INFO 9936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9081 ms
+2020-03-26 15:27:58.636  INFO 9936 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:28:00.423  INFO 9936 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:28:02.199  INFO 9936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:28:02.737  INFO 9936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:28:03.467  INFO 9936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:28:03.491  INFO 9936 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.751 seconds (JVM running for 22.862)
+2020-03-26 15:28:22.614  INFO 9936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:28:22.618  INFO 9936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:28:22.646  INFO 9936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-03-26 15:29:51.451  INFO 9936 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:29:51.494  INFO 9936 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:30:18.041  INFO 9712 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 9712 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:30:18.064  INFO 9712 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:30:24.602  INFO 9712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:30:24.658  INFO 9712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:30:24.663  INFO 9712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:30:27.109  INFO 9712 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:30:27.279  INFO 9712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:30:27.281  INFO 9712 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8920 ms
+2020-03-26 15:30:27.885  INFO 9712 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:30:29.914  INFO 9712 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:30:32.053  INFO 9712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:30:32.554  INFO 9712 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:30:33.805  INFO 9712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:30:33.837  INFO 9712 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 17.777 seconds (JVM running for 23.171)
+2020-03-26 15:30:34.090  INFO 9712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:30:34.094  INFO 9712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:30:34.136  INFO 9712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2020-03-26 15:33:02.706  INFO 9712 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:33:02.749  INFO 9712 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 15:40:56.198  INFO 12004 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 12004 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:40:56.211  INFO 12004 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:41:02.578  INFO 12004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:41:02.616  INFO 12004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:41:02.619  INFO 12004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:41:05.632  INFO 12004 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:41:05.803  INFO 12004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:41:05.805  INFO 12004 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9266 ms
+2020-03-26 15:41:06.397  INFO 12004 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:41:08.436  INFO 12004 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:41:10.854  INFO 12004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:41:11.272  INFO 12004 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:41:12.266  INFO 12004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:41:12.286  INFO 12004 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 18.558 seconds (JVM running for 26.843)
+2020-03-26 15:41:59.165  INFO 10544 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10544 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:41:59.177  INFO 10544 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:42:05.109  INFO 10544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:42:05.152  INFO 10544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:42:05.155  INFO 10544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:42:07.671  INFO 10544 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:42:07.793  INFO 10544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:42:07.796  INFO 10544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8468 ms
+2020-03-26 15:42:08.236  INFO 10544 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:42:09.900  INFO 10544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:42:12.109  INFO 10544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:42:12.438  INFO 10544 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:42:13.513  INFO 10544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:42:13.527  INFO 10544 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.71 seconds (JVM running for 23.373)
+2020-03-26 15:42:52.073  INFO 10544 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; JSESSIONID=610D853FEFE1E505F7C3F5D9FD74BD84; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585202983] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:42:52.100  INFO 10544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:42:52.103  INFO 10544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:42:52.128  INFO 10544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-03-26 15:42:56.506  WARN 10544 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,050] milliseconds.
+2020-03-26 15:44:22.167  INFO 6908 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 6908 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:44:22.188  INFO 6908 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:44:27.966  INFO 6908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:44:28.009  INFO 6908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:44:28.013  INFO 6908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:44:30.497  INFO 6908 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:44:30.608  INFO 6908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:44:30.609  INFO 6908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8166 ms
+2020-03-26 15:44:31.058  INFO 6908 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:44:32.835  INFO 6908 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:44:34.733  INFO 6908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:44:35.038  INFO 6908 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:44:35.969  INFO 6908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:44:36.036  INFO 6908 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.173 seconds (JVM running for 22.562)
+2020-03-26 15:44:48.468  INFO 6908 --- [http-nio-8080-exec-4] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=0DDBCF6CFDAFA8BA8DAC90C327A33473; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585208578] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:44:48.557  INFO 6908 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:44:48.559  INFO 6908 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:44:48.630  INFO 6908 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 70 ms
+2020-03-26 15:44:53.271  WARN 6908 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [805] milliseconds.
+2020-03-26 15:48:47.098  INFO 10612 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10612 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:48:47.109  INFO 10612 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:48:52.941  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:48:53.000  INFO 10612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:48:53.002  INFO 10612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:48:55.237  INFO 10612 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:48:55.359  INFO 10612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:48:55.360  INFO 10612 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7952 ms
+2020-03-26 15:48:55.773  INFO 10612 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:48:57.324  INFO 10612 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:48:58.920  INFO 10612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:48:59.179  INFO 10612 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:48:59.954  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:48:59.989  INFO 10612 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.306 seconds (JVM running for 20.542)
+2020-03-26 15:50:56.100  INFO 10612 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=234A5A665A5604B4DA8D9BE6EC9F0D4D; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585208695] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:50:56.139  INFO 10612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:50:56.144  INFO 10612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:50:56.179  INFO 10612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-03-26 15:51:00.282  WARN 10612 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [740] milliseconds.
+2020-03-26 15:54:17.697  INFO 11240 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11240 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:54:17.710  INFO 11240 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:54:24.079  INFO 11240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:54:24.115  INFO 11240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:54:24.118  INFO 11240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:54:26.074  INFO 11240 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:54:26.180  INFO 11240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:54:26.181  INFO 11240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8162 ms
+2020-03-26 15:54:26.570  INFO 11240 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:54:28.229  INFO 11240 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:54:29.799  INFO 11240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:54:30.064  INFO 11240 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:54:30.934  INFO 11240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:54:30.949  INFO 11240 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.543 seconds (JVM running for 20.675)
+2020-03-26 15:55:14.471  INFO 11240 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=91EC233B8F435292B6AA4E1F337574AE; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209149] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:55:14.509  INFO 11240 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:55:14.512  INFO 11240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:55:14.552  INFO 11240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+2020-03-26 15:55:19.000  WARN 11240 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [753] milliseconds.
+2020-03-26 15:56:11.552  INFO 11360 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11360 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:56:11.566  INFO 11360 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:56:16.608  INFO 11360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:56:16.655  INFO 11360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:56:16.659  INFO 11360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:56:18.506  INFO 11360 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:56:18.597  INFO 11360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:56:18.599  INFO 11360 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6851 ms
+2020-03-26 15:56:19.042  INFO 11360 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:56:20.539  INFO 11360 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:56:22.195  INFO 11360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:56:22.456  INFO 11360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:56:23.198  INFO 11360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:56:23.214  INFO 11360 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 13.196 seconds (JVM running for 18.685)
+2020-03-26 15:57:15.107  INFO 11360 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=6B0C4C171DDCA001CA4C23484E0DA733; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209321] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:57:15.149  INFO 11360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:57:15.152  INFO 11360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:57:15.181  INFO 11360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-03-26 15:57:19.655  WARN 11360 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [715] milliseconds.
+2020-03-26 15:58:31.836  INFO 10848 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10848 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 15:58:31.856  INFO 10848 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 15:58:37.668  INFO 10848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 15:58:37.737  INFO 10848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 15:58:37.742  INFO 10848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 15:58:39.915  INFO 10848 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 15:58:40.003  INFO 10848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 15:58:40.004  INFO 10848 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7902 ms
+2020-03-26 15:58:40.516  INFO 10848 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 15:58:42.140  INFO 10848 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 15:58:44.224  INFO 10848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:58:44.588  INFO 10848 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 15:58:45.434  INFO 10848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 15:58:45.462  INFO 10848 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.603 seconds (JVM running for 20.794)
+2020-03-26 15:58:45.647  INFO 10848 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=AC746A56E587854155713745C6D803B3; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209465] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 15:58:45.689  INFO 10848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 15:58:45.692  INFO 10848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 15:58:45.725  INFO 10848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-03-26 15:58:50.331  WARN 10848 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [796] milliseconds.
+2020-03-26 16:00:19.329  INFO 8200 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 8200 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:00:19.341  INFO 8200 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:00:26.078  INFO 8200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:00:26.143  INFO 8200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:00:26.149  INFO 8200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:00:28.192  INFO 8200 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:00:28.333  INFO 8200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:00:28.340  INFO 8200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8800 ms
+2020-03-26 16:00:29.055  INFO 8200 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:00:31.732  INFO 8200 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:00:33.880  INFO 8200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:00:34.258  INFO 8200 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:00:35.475  INFO 8200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:00:35.486  INFO 8200 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 18.047 seconds (JVM running for 23.112)
+2020-03-26 16:00:37.511  INFO 8200 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=66DF461D3AEBA3174C96968EFAFB05D1; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209538] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:00:37.539  INFO 8200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:00:37.541  INFO 8200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:00:37.563  INFO 8200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-03-26 16:00:42.158  WARN 8200 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [805] milliseconds.
+2020-03-26 16:01:25.738  INFO 11540 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11540 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:01:25.753  INFO 11540 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:01:31.402  INFO 11540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:01:31.440  INFO 11540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:01:31.444  INFO 11540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:01:33.325  INFO 11540 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:01:33.400  INFO 11540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:01:33.402  INFO 11540 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7390 ms
+2020-03-26 16:01:33.860  INFO 11540 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:01:35.371  INFO 11540 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:01:37.008  INFO 11540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:01:37.439  INFO 11540 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:01:38.392  INFO 11540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:01:38.608  INFO 11540 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.194 seconds (JVM running for 21.88)
+2020-03-26 16:01:40.575  INFO 11540 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=436CBA70A292D7542353AA2560895E87; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209644] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:01:40.618  INFO 11540 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:01:40.621  INFO 11540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:01:40.654  INFO 11540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-03-26 16:01:45.681  WARN 11540 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [921] milliseconds.
+2020-03-26 16:02:42.045  INFO 11464 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11464 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:02:42.058  INFO 11464 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:02:48.469  INFO 11464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:02:48.539  INFO 11464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:02:48.542  INFO 11464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:02:50.491  INFO 11464 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:02:50.617  INFO 11464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:02:50.619  INFO 11464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8350 ms
+2020-03-26 16:02:51.158  INFO 11464 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:02:52.779  INFO 11464 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:02:54.654  INFO 11464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:02:54.931  INFO 11464 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:02:55.711  INFO 11464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:02:55.726  INFO 11464 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.775 seconds (JVM running for 22.061)
+2020-03-26 16:06:02.297  INFO 11464 --- [http-nio-8080-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=607D3BD5CEC065ABDE18B60D0EBF43A8; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585209707] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:06:02.335  INFO 11464 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:06:02.338  INFO 11464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:06:02.373  INFO 11464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-03-26 16:06:06.728  WARN 11464 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [968] milliseconds.
+2020-03-26 16:08:57.018  INFO 10812 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10812 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:08:57.030  INFO 10812 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:09:02.767  INFO 10812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:09:02.817  INFO 10812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:09:02.820  INFO 10812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:09:05.044  INFO 10812 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:09:05.178  INFO 10812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:09:05.180  INFO 10812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7862 ms
+2020-03-26 16:09:05.764  INFO 10812 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:09:07.552  INFO 10812 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:09:09.431  INFO 10812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:09:09.713  INFO 10812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:09:10.476  INFO 10812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:09:10.562  INFO 10812 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.545 seconds (JVM running for 22.349)
+2020-03-26 16:09:21.676  INFO 10812 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=DB416BA6CFBB75C34A9F6CC4B2A747B3; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210010] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:09:21.716  INFO 10812 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:09:21.719  INFO 10812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:09:21.754  INFO 10812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2020-03-26 16:09:26.397  WARN 10812 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [913] milliseconds.
+2020-03-26 16:13:59.189  INFO 6068 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 6068 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:13:59.200  INFO 6068 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:14:04.111  INFO 6068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:14:04.150  INFO 6068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:14:04.154  INFO 6068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:14:06.045  INFO 6068 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:14:06.130  INFO 6068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:14:06.131  INFO 6068 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6738 ms
+2020-03-26 16:14:06.559  INFO 6068 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:14:08.039  INFO 6068 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:14:09.637  INFO 6068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:14:09.888  INFO 6068 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:14:10.579  INFO 6068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:14:10.594  INFO 6068 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 14.961 seconds (JVM running for 22.321)
+2020-03-26 16:14:25.679  INFO 6068 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=2C530E56C32F7A0A02EA51FD153D3789; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210293] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:14:25.717  INFO 6068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:14:25.719  INFO 6068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:14:25.747  INFO 6068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-03-26 16:14:29.835  WARN 6068 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [768] milliseconds.
+2020-03-26 16:15:44.362  INFO 10408 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10408 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:15:44.379  INFO 10408 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:15:50.416  INFO 10408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:15:50.454  INFO 10408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:15:50.461  INFO 10408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:15:52.604  INFO 10408 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:15:52.728  INFO 10408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:15:52.729  INFO 10408 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8148 ms
+2020-03-26 16:15:53.413  INFO 10408 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:15:55.473  INFO 10408 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:15:57.717  INFO 10408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:15:58.192  INFO 10408 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:15:59.360  INFO 10408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:15:59.373  INFO 10408 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.883 seconds (JVM running for 23.008)
+2020-03-26 16:16:05.417  INFO 10408 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=F6C6645E395EBA919E356437F5B597C1; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210471] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:16:05.454  INFO 10408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:16:05.459  INFO 10408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:16:05.490  INFO 10408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-03-26 16:16:10.087  WARN 10408 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,027] milliseconds.
+2020-03-26 16:18:04.138  INFO 8740 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 8740 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:18:04.152  INFO 8740 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:18:09.939  INFO 8740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:18:09.984  INFO 8740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:18:09.989  INFO 8740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:18:12.020  INFO 8740 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:18:12.108  INFO 8740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:18:12.109  INFO 8740 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7756 ms
+2020-03-26 16:18:12.551  INFO 8740 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:18:14.046  INFO 8740 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:18:15.697  INFO 8740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:18:15.953  INFO 8740 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:18:16.637  INFO 8740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:18:16.702  INFO 8740 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 14.181 seconds (JVM running for 19.697)
+2020-03-26 16:19:07.909  INFO 8740 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=C9CDB1B18F43864AA0F10457C9EEE2B5; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210573] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:19:07.945  INFO 8740 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:19:07.947  INFO 8740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:19:07.975  INFO 8740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-03-26 16:19:12.103  WARN 8740 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [710] milliseconds.
+2020-03-26 16:21:35.626  INFO 11564 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11564 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:21:35.656  INFO 11564 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:21:41.572  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:21:41.610  INFO 11564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:21:41.632  INFO 11564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:21:43.529  INFO 11564 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:21:43.643  INFO 11564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:21:43.647  INFO 11564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7684 ms
+2020-03-26 16:21:44.048  INFO 11564 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:21:45.675  INFO 11564 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:21:47.203  INFO 11564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:21:47.442  INFO 11564 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:21:48.239  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:21:48.256  INFO 11564 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.009 seconds (JVM running for 21.308)
+2020-03-26 16:22:10.682  INFO 11564 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=D1076183C88DC167BB47A466DE8DFDF2; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210754] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:22:10.719  INFO 11564 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:22:10.721  INFO 11564 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:22:10.765  INFO 11564 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 43 ms
+2020-03-26 16:22:15.523  WARN 11564 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [938] milliseconds.
+2020-03-26 16:26:26.730  INFO 6028 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 6028 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:26:26.741  INFO 6028 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:26:32.962  INFO 6028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:26:33.007  INFO 6028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:26:33.010  INFO 6028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:26:34.846  INFO 6028 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:26:34.953  INFO 6028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:26:34.955  INFO 6028 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7857 ms
+2020-03-26 16:26:35.398  INFO 6028 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:26:36.955  INFO 6028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:26:38.635  INFO 6028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:26:38.887  INFO 6028 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:26:39.632  INFO 6028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:26:39.647  INFO 6028 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 14.816 seconds (JVM running for 19.463)
+2020-03-26 16:26:45.831  INFO 6028 --- [http-nio-8080-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=72E87B817811545705FC905EE9A99C94; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585210945] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:26:45.861  INFO 6028 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:26:45.864  INFO 6028 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:26:45.893  INFO 6028 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-03-26 16:26:50.520  WARN 6028 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,192] milliseconds.
+2020-03-26 16:32:10.824  INFO 5936 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 5936 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:32:10.834  INFO 5936 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:32:16.938  INFO 5936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:32:16.978  INFO 5936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:32:16.981  INFO 5936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:32:19.675  INFO 5936 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:32:19.790  INFO 5936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:32:19.793  INFO 5936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8724 ms
+2020-03-26 16:32:20.561  INFO 5936 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:32:22.763  INFO 5936 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:32:24.562  INFO 5936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:32:24.898  INFO 5936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:32:25.714  INFO 5936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:32:25.729  INFO 5936 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 16.901 seconds (JVM running for 21.075)
+2020-03-26 16:32:33.444  INFO 5936 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=5A9A731123630B683944B4094040C1FE; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585211212] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:32:33.478  INFO 5936 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:32:33.481  INFO 5936 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:32:33.511  INFO 5936 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-03-26 16:32:37.989  WARN 5936 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [911] milliseconds.
+2020-03-26 16:34:05.079  INFO 11564 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 11564 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:34:05.090  INFO 11564 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:34:11.445  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:34:11.497  INFO 11564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:34:11.500  INFO 11564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:34:13.624  INFO 11564 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:34:13.705  INFO 11564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:34:13.706  INFO 11564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8403 ms
+2020-03-26 16:34:14.154  INFO 11564 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:34:15.730  INFO 11564 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:34:17.685  INFO 11564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:34:17.953  INFO 11564 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:34:18.859  INFO 11564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:34:18.891  INFO 11564 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 15.822 seconds (JVM running for 21.053)
+2020-03-26 16:34:26.516  INFO 11564 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=9F5ED08EC6065D04775A1AB0749E12FD; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585211560] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:34:26.584  INFO 11564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:34:26.588  INFO 11564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:34:26.623  INFO 11564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-03-26 16:40:30.573  INFO 11564 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:40:30.590  INFO 11564 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 16:40:44.575  INFO 5428 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 5428 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:40:44.584  INFO 5428 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:40:48.688  INFO 5428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:40:48.720  INFO 5428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:40:48.722  INFO 5428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:40:49.918  INFO 5428 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:40:49.975  INFO 5428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:40:49.976  INFO 5428 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5226 ms
+2020-03-26 16:40:50.266  INFO 5428 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:40:51.392  INFO 5428 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:40:52.540  INFO 5428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:40:52.727  INFO 5428 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:40:53.378  INFO 5428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:40:53.388  INFO 5428 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 10.048 seconds (JVM running for 12.593)
+2020-03-26 16:41:09.136  INFO 5428 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=11ACF8687D56733C7ED0658A714B15FF; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585212034] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:41:09.164  INFO 5428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:41:09.166  INFO 5428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:41:09.189  INFO 5428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-03-26 16:42:27.884  INFO 5428 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:42:27.905  INFO 5428 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-03-26 16:42:40.081  INFO 10992 --- [main] com.example.website.WebsiteApplication   : Starting WebsiteApplication on USER-20200110SB with PID 10992 (C:\Code\website\target\classes started by Administrator in C:\Code\website)
+2020-03-26 16:42:40.089  INFO 10992 --- [main] com.example.website.WebsiteApplication   : No active profile set, falling back to default profiles: default
+2020-03-26 16:42:43.981  INFO 10992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:42:44.010  INFO 10992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 16:42:44.012  INFO 10992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:42:45.105  INFO 10992 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 16:42:45.159  INFO 10992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 16:42:45.160  INFO 10992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4920 ms
+2020-03-26 16:42:45.406  INFO 10992 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-03-26 16:42:46.332  INFO 10992 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-26 16:42:47.244  INFO 10992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:42:47.396  INFO 10992 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-03-26 16:42:47.835  INFO 10992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 16:42:47.846  INFO 10992 --- [main] com.example.website.WebsiteApplication   : Started WebsiteApplication in 9.087 seconds (JVM running for 11.699)
+2020-03-26 16:43:06.164  INFO 10992 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1582188167,1583125517; Hm_lvt_c527cc6827eda1d8c54e9018cc6155d9=1585202902; JSESSIONID=0EAD2917C8C15DB865E76B891D068C22; Hm_lpvt_c527cc6827eda1d8c54e9018cc6155d9=1585212151] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-26 16:43:06.182  INFO 10992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:43:06.184  INFO 10992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:43:06.201  INFO 10992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-03-26 16:43:08.179  WARN 10992 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [321] milliseconds.
